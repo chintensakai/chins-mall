@@ -1,11 +1,11 @@
 
          ,--.
        ,--.'|
-   ,--,:  : |                                           Nacos 1.4.0-BETA
+   ,--,:  : |                                           Nacos 1.4.0
 ,`--.'`|  ' :                       ,---.               Running in stand alone mode, All function modules
 |   :  :  | |                      '   ,'\   .--.--.    Port: 8848
 :   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 30
-|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://017f027e0203:8848/nacos/index.html
+|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://2581dbb0a8ce:8848/nacos/index.html
 '   ' ;.    ;.--.  .-. | /    / ''   | |: :|  :  ;_
 |   | | \   | \__\/: . ..    ' / '   | .; : \  \    `.      https://nacos.io
 '   : |  ; .' ," .--.; |'   ; :__|   :    |  `----.   \
@@ -14,37 +14,37 @@
 ;   |.'     |  ,     .-./\   \  /            `--'---'
 '---'        `--`---'     `----'
 
-2020-12-13 15:41:15,557 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5c45d770' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-13 17:04:00,401 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6676f6a0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2020-12-13 15:41:15,564 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-13 17:04:00,410 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2020-12-13 15:41:15,894 INFO Tomcat initialized with port(s): 8848 (http)
+2020-12-13 17:04:00,866 INFO Tomcat initialized with port(s): 8848 (http)
 
-2020-12-13 15:41:16,247 INFO Root WebApplicationContext: initialization completed in 3070 ms
+2020-12-13 17:04:01,349 INFO Root WebApplicationContext: initialization completed in 3936 ms
 
-2020-12-13 15:41:19,192 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-13 17:04:05,362 INFO Initializing ExecutorService 'applicationTaskExecutor'
 
-2020-12-13 15:41:19,339 INFO Adding welcome page: class path resource [static/index.html]
+2020-12-13 17:04:05,582 INFO Adding welcome page: class path resource [static/index.html]
 
-2020-12-13 15:41:19,752 INFO Creating filter chain: Ant [pattern='/**'], []
+2020-12-13 17:04:06,125 INFO Creating filter chain: Ant [pattern='/**'], []
 
-2020-12-13 15:41:19,797 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bb9efbc, org.springframework.security.web.context.SecurityContextPersistenceFilter@3aaf4f07, org.springframework.security.web.header.HeaderWriterFilter@51b01960, org.springframework.security.web.csrf.CsrfFilter@4ced35ed, org.springframework.security.web.authentication.logout.LogoutFilter@42deb43a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18e8473e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ad394e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1cefc4b3, org.springframework.security.web.session.SessionManagementFilter@27dc79f7, org.springframework.security.web.access.ExceptionTranslationFilter@7bd69e82]
+2020-12-13 17:04:06,186 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5aa360ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b65e559, org.springframework.security.web.header.HeaderWriterFilter@7a34b7b8, org.springframework.security.web.csrf.CsrfFilter@420bc288, org.springframework.security.web.authentication.logout.LogoutFilter@1c4ee95c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74a9c4b0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10567255, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6548bb7d, org.springframework.security.web.session.SessionManagementFilter@3be8821f, org.springframework.security.web.access.ExceptionTranslationFilter@308a6984]
 
-2020-12-13 15:41:19,895 INFO Initializing ExecutorService 'taskScheduler'
+2020-12-13 17:04:06,323 INFO Initializing ExecutorService 'taskScheduler'
 
-2020-12-13 15:41:19,918 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-12-13 17:04:06,359 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
 
-2020-12-13 15:41:20,025 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+2020-12-13 17:04:06,505 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
 
-2020-12-13 15:41:20,030 INFO Nacos Log files: /home/nacos/logs
+2020-12-13 17:04:06,512 INFO Nacos Log files: /home/nacos/logs
 
-2020-12-13 15:41:20,032 INFO Nacos Log files: /home/nacos/conf
+2020-12-13 17:04:06,515 INFO Nacos Log files: /home/nacos/conf
 
-2020-12-13 15:41:20,032 INFO Nacos Log files: /home/nacos/data
+2020-12-13 17:04:06,515 INFO Nacos Log files: /home/nacos/data
 
-2020-12-13 15:41:20,033 INFO Nacos started successfully in stand alone mode. use external storage
+2020-12-13 17:04:06,517 INFO Nacos started successfully in stand alone mode. use external storage
 
-2020-12-13 15:41:41,299 INFO Initializing Servlet 'dispatcherServlet'
+2020-12-13 17:05:30,974 INFO Initializing Servlet 'dispatcherServlet'
 
-2020-12-13 15:41:41,309 INFO Completed initialization in 10 ms
+2020-12-13 17:05:30,986 INFO Completed initialization in 12 ms
 

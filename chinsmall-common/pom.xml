@@ -17,8 +17,8 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.16</version>
-<!--  provided依赖不能传递    -->
-<!--      <scope>provided</scope>-->
+      <!--  provided依赖不能传递    -->
+      <!--      <scope>provided</scope>-->
     </dependency>
 
     <dependency>
@@ -26,7 +26,30 @@
       <artifactId>mybatis-plus-boot-starter</artifactId>
       <version>3.4.1</version>
     </dependency>
+
+    <dependency>
+      <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId>
+      <version>8.0.22</version>
+    </dependency>
+
+    <dependency>
+      <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+      <groupId>com.alibaba.cloud</groupId>
+    </dependency>
   </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <groupId>com.alibaba.cloud</groupId>
+        <scope>import</scope>
+        <type>pom</type>
+        <version>2.2.3.RELEASE</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <properties>
     <maven.compiler.source>8</maven.compiler.source>
