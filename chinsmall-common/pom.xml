@@ -17,7 +17,8 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.16</version>
-      <scope>provided</scope>
+<!--  provided依赖不能传递    -->
+<!--      <scope>provided</scope>-->
     </dependency>
 
     <dependency>
