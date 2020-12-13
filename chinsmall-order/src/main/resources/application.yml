@@ -1,9 +1,9 @@
 server:
-  port: 7000
+  port: 6000
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3316/chins-mall-pms?useUnicode=true&useSSL=false&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3316/chins-mall-oms?useUnicode=true&useSSL=false&characterEncoding=utf8
     username: root
     password: 123456
 
