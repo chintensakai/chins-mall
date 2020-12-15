@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: chinsmall-gateway
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+    gateway:
+      routes:
+        - id: test_gateway
+          uri: https://www.baidu.com
+          predicates:
+            #            参数中有url，且url的值是baidu
+            - Query=url, baidu
+
+
+
