@@ -16,6 +16,7 @@
 		<module>chinsmall-member</module>
 		<module>chinsmall-ware</module>
 		<module>chinsmall-coupon</module>
-    <module>chinsmall-common</module>
-  </modules>
+		<module>chinsmall-common</module>
+		<module>chinsmall-gateway</module>
+	</modules>
 </project>
