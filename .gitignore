@@ -24,3 +24,4 @@ hs_err_pid*
 /.idea/*
 /chinsmall-common/chinsmall-common.iml
 /chinsmall-generator/chinsmall-generator.iml
+/nacos-docker/example/standalone-*
