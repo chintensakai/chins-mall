@@ -14,7 +14,7 @@ spring:
         - id: test_gateway
           uri: https://www.baidu.com
           predicates:
-            #            参数中有url，且url的值是baidu
+#            濡傛灉鍖呭惈url鍙傛暟锛屼笖鍙傛暟鍊兼槸鐧惧害锛屽垯鍖归厤
             - Query=url, baidu
 
 
