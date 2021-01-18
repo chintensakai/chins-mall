@@ -1,7 +1,7 @@
 package com.chins.chinsmall.product.service;
 
-import com.chins.chinsmall.product.entity.PmsCategory;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.chins.chinsmall.product.entity.PmsCategory;
 
 /**
  * <p>
@@ -13,4 +13,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IPmsCategoryService extends IService<PmsCategory> {
 
+  Object listWithTree();
 }

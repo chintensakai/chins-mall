@@ -1,8 +1,10 @@
 package com.chins.chinsmall.product.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.util.List;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -66,5 +68,6 @@ public class PmsCategory implements Serializable {
      */
     private Integer productCount;
 
-
+    @TableField(exist = false)
+    private List<PmsCategory> subCategories;
 }
