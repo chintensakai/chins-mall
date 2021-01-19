@@ -14,8 +14,16 @@ spring:
         - id: test_gateway
           uri: https://www.baidu.com
           predicates:
-#            如果包含url参数，且参数值是百度，则匹配
+            #            如果包含url参数，且参数值是百度，则匹配
             - Query=url, baidu
 
+        # 等admin后台创建好之后会改成admin，此处用product做一下测试
+        - id: admin_route
+          uri: lb://chinsmall-product
+          predicates:
+            - Path=/api/**
 
+          # 路径重写        localhost:8080/api/pms-category/list/tree  -> localhost:7000/product/pms-category/list/tree
+          filters:
+            - RewritePath=/api/(?<segment>.*), /product/$\{segment}
 
