@@ -28,6 +28,7 @@ docker-compose -f example/standalone-mysql-8.yaml up
 | product | 7000 |
 | coupon  | 8000 |
 | ware    | 9000 |
+| search    | 10000 |
 
 + elasticsearch
 

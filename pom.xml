@@ -18,5 +18,6 @@
 		<module>chinsmall-coupon</module>
 		<module>chinsmall-common</module>
 		<module>chinsmall-gateway</module>
+		<module>chinsmall-search</module>
 	</modules>
 </project>
